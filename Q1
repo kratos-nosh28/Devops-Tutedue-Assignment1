@@ -1,0 +1,9 @@
+enosh@Chintus:~$ mkdir test_dir
+enosh@Chintus:~$ cd test_dir
+enosh@Chintus:~/test_dir$ touch example.txt
+enosh@Chintus:~/test_dir$ ls
+example.txt
+enosh@Chintus:~/test_dir$ mv example.txt renamed_example.txt
+enosh@Chintus:~/test_dir$ ls
+renamed_example.txt
+enosh@Chintus:~/test_dir$
