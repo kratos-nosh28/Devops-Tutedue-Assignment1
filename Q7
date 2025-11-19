@@ -1,0 +1,4 @@
+enosh@Chintus:~/test_dir$ export MY_VAR="Hello, Linux!"
+enosh@Chintus:~/test_dir$ echo $MY_VAR
+Hello, Linux!
+enosh@Chintus:~/test_dir$
