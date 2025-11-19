@@ -1,0 +1,12 @@
+enosh@Chintus:~$ zip -r test_dir.zip test_dir
+  adding: test_dir/ (stored 0%)
+  adding: test_dir/renamed_example.txt (stored 0%)
+enosh@Chintus:~$ ls
+test_dir  test_dir.zip
+enosh@Chintus:~$ unzip test_dir.zip -d unzipped_dir
+Archive:  test_dir.zip
+   creating: unzipped_dir/test_dir/
+ extracting: unzipped_dir/test_dir/renamed_example.txt
+enosh@Chintus:~$ ls
+test_dir  test_dir.zip  unzipped_dir
+enosh@Chintus:~$
