@@ -1,0 +1,5 @@
+enosh@Chintus:~/test_dir$ touch secure.txt
+enosh@Chintus:~/test_dir$ chmod 444 secure.txt
+enosh@Chintus:~/test_dir$ ls
+renamed_example.txt  secure.txt
+enosh@Chintus:~/test_dir$
